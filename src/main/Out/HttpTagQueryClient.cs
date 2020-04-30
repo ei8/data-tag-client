@@ -1,13 +1,13 @@
 ﻿using NLog;
-using org.neurul.Common.Http;
+using neurUL.Common.Http;
 using Polly;
 using Splat;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using works.ei8.Data.Tag.Common;
+using ei8.Data.Tag.Common;
 
-namespace works.ei8.Data.Tag.Client.Out
+namespace ei8.Data.Tag.Client.Out
 {
     public class HttpTagQueryClient : ITagQueryClient
     {

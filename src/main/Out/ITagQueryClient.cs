@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using works.ei8.Data.Tag.Common;
+using ei8.Data.Tag.Common;
 
-namespace works.ei8.Data.Tag.Client.Out
+namespace ei8.Data.Tag.Client.Out
 {
     public interface ITagQueryClient
     {

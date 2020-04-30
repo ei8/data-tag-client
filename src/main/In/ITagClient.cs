@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace works.ei8.Data.Tag.Client.In
+namespace ei8.Data.Tag.Client.In
 {
     public interface ITagClient
     {
