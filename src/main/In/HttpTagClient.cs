@@ -42,7 +42,7 @@ namespace ei8.Data.Tag.Client.In
                 AuthorId = authorId
             };
 
-            await this.requestProvider.PutAsync(
+            await this.requestProvider.PutAsync<object>(
                $"{avatarUrl}{string.Format(HttpTagClient.tagsPathTemplate, id)}",
                data,
                token: token,
